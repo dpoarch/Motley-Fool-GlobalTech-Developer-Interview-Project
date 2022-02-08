@@ -1,0 +1,64 @@
+.entry-title{
+	font-size: 35px !important;
+	font-weight: 700 !important;
+}
+.entry-content>.wp-block-columns{
+	max-width: 100% !important;
+	width: 100% !important;
+	margin: 0 !important;
+}
+#company_profile >.company_logo > img{
+	border-radius: 10px !important;
+}
+#company_profile >.company_name{
+	font-weight: bolder;
+	display: block;
+	
+}
+#company_profile>div{
+	font-size: 18px !important;
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+}
+.company_brand{
+	display: flex;
+	position: relative;
+    top: 20px;
+    left: 10px;
+}
+.entry-title > .company_brand > .companyLogo{
+	border-radius: 50px;
+	width: 100px;
+}
+.entry-title > .company_brand > .companyName{
+	line-height: 100px;
+    margin-left: 20px;
+    font-size: 30px;
+}
+th, tr, td{
+	white-space: nowrap;
+}
+
+body.custom-background{
+	background: linear-gradient(1deg, #0cbcff, #02021c);
+}
+
+#company_profile, #priceChart{
+
+	padding: 0px 300px 0px 0px;
+}
+/*.entry-header{
+	background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://wallpaperaccess.com/full/2389942.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}*/
+
+#company_profile>div>strong{
+	display:block;
+}
+
+@media screen and (max-width: 1500px) {
+  	#company_profile{
+		padding: 0px 20px 0px 0px !important;
+	}
+}
