@@ -48,7 +48,7 @@ define( 'DB_COLLATE', '' );
 9. Project is now ready to run at:
 ```http
 
- http://localhost/MotleyFoolGlobalTech/
+ http://localhost/Motley-Fool-GlobalTech-Developer-Interview-Project/
 
 ```
 ## [Optional]
@@ -56,7 +56,7 @@ define( 'DB_COLLATE', '' );
 Use This url apache has custom PORT_NUMBER, Just replace the `PORT_NUMBER` from the url.
 ```
 
- http://localhost:PORT_NUMBER/MotleyFoolGlobalTech/
+ http://localhost:PORT_NUMBER/Motley-Fool-GlobalTech-Developer-Interview-Project/
 
 ```
 
