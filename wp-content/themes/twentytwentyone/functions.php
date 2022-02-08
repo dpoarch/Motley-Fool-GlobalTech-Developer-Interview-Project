@@ -468,13 +468,12 @@ function twenty_twenty_one_scripts() {
 }
 add_action( 'wp_enqueue_scripts', 'twenty_twenty_one_scripts' );
 
-
-function add_main_js_script(){
+// Custom script for CSS
+function add_main_css_script(){
 	wp_enqueue_style( 'main-style', get_template_directory_uri() . '/assets/css/style.css', array(), wp_get_theme()->get( 'Version' ) );
-	wp_enqueue_script( 'main-js', get_template_directory_uri() . '/assets/js/script.js', array('jquery'), wp_get_theme()->get( 'Version' ) , true);
 }
 
-add_action( 'wp_enqueue_scripts', 'add_main_js_script' );
+add_action( 'wp_enqueue_scripts', 'add_main_css_script' );
 
 /**
  * Enqueue block editor script.
