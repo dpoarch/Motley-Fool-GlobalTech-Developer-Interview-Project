@@ -5,9 +5,9 @@
 
 You can install this project by doing the following:
 
-1. Download the this repo.
+1. Download this repo.
 2. Unzip the file.
-3. Copy and paste it to your working php directory.
+3. Copy and paste into your working php directory.
 4. Run Apache & Mysql.
 5. Open `Motley Fool GlobalTech Developer Interview Project` directory.
 
@@ -18,7 +18,7 @@ You can install this project by doing the following:
 
 ```
 
-7. Import `motley_fool.sql` inside your Phpmyadmin.
+7. Import `motley_fool.sql` into your Phpmyadmin.
 
 
 8. Edit `wp-config.php` file and set your `DB_USER` & `DB_PASSWORD`.
@@ -53,7 +53,7 @@ define( 'DB_COLLATE', '' );
 ```
 ## [Optional]
 
-Use This url apache has custom PORT_NUMBER, Just replace the `PORT_NUMBER` from the url.
+This url has custom PORT_NUMBER, and you can just replace the `PORT_NUMBER` in the url.
 ```
 
  http://localhost:PORT_NUMBER/Motley-Fool-GlobalTech-Developer-Interview-Project/
