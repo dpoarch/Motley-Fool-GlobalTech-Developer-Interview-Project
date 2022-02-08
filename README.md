@@ -21,7 +21,7 @@ You can install this project by doing the following:
 7. Import `motley_fool.sql` inside your Phpmyadmin.
 
 
-8. Edit `wp-config.php` file and set your Username & Password.
+8. Edit `wp-config.php` file and set your `DB_USER` & `DB_PASSWORD`.
 
 ```php
 <?php 
